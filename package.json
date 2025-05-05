@@ -9,7 +9,10 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "shadcn/ui": "latest"
+    "lucide-react": "^0.367.0",             // icons
+    "class-variance-authority": "^0.7.0",   // used by shadcn buttons
+    "tailwind-merge": "^1.14.0",            // used by shadcn buttons
+    "@radix-ui/react-slot": "^1.0.2"        // used by shadcn buttons
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
