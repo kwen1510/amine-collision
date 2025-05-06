@@ -97,7 +97,7 @@ export default function App(){
        <Legend />
      </div>
      {/* Canvas */}
-     <canvas ref={canvasRef} width={CANVAS_W} height={CANVAS_H} key={seed} className='rounded-[2.5rem] shadow-2xl ring-2 ring-indigo-200 bg-white'/>
+     <canvas ref={canvasRef} width={CANVAS_W} height={CANVAS_H} key={seed} className='rounded-[2.5rem] shadow-2xl ring-2 ring-indigo-200 bg-white w-full max-w-[640px] h-auto'/>
    </div>
   </div>)
 }
